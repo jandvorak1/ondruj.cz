@@ -1,0 +1,151 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Petr Daubner - kandidát do Senátu
+email: Petr.daubner@pirati.cz
+description: "Člen Pirátů, kandiduje s podporou ČSSD, Zelených a SEN 21. Středoškolský učitel a cestovatel"
+keywords: Senát, Piráti, Politika, Liberální, Demokracie
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://petrdaubner.cz/" # the base hostname & protocol for your site
+
+twitter_username: jekyllrb
+github_username:  jekyll
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
+organization:
+  name: Petr Daubner - kandidát do Senátu
+  shortName: Petr Daubner
+  contactUid: petr.daubner
+  email: petr.daubner@pirati.cz
+  phone: +420 730 683 800
+  address: |
+    Na Moráni 3,
+    120 00 Praha 2
+  residenceImg:
+  mapLink: https://mapy.cz/zakladni?vlastni-body&x=14.4418976&y=50.0863156&z=18&ut=PiCe&uc=9h2F.xXwtn&ud=ulice%20%C5%98eho%C5%99ova%20943%2F19%2C%20Praha%2C%20130%2000%2C%20okres%20Hlavn%C3%AD%20m%C4%9Bsto%20Praha
+  redmineLink: https://redmine.pirati.cz/projects
+  transparentAccount:  2501446042/2010
+
+homepageBanner:
+  display: true
+  link: /program/
+  title: Program
+  breakpoint: 640 # breakpoint in pixels when to start showing `default` instead of `mobile`
+  image:
+    default: header/roman-semik-large.jpg
+    mobile: header/roman-semik-small.jpg
+
+calendar:
+  # Get api key from Google Developer Console
+  apiKey:
+  title: Petr Daubner - Kalendář
+  id: cm9tYW4uc2VtaWtAZ21haWwuY29t@group.calendar.google.com
+  page: https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=500&amp;wkst=2&amp;hl=cs&amp;bgcolor=%23FFFFFF&amp;src=roman.semik%40gmail.com&amp;&ctz=Europe%2FPrague&amp;color=%232952A3
+
+
+facebook:
+  loadSDK: true
+  profilePage: https://www.facebook.com/PiratiPraha9 
+
+twitter:
+  loadSDK: true
+  profile: stoural
+
+instagram:
+  profilePage: https://www.instagram.com/pirati.cz/
+
+gplus:
+  profilePage: https://plus.google.com/u/0/+piratskastrana
+
+flicker:
+  profilePage: https://www.flickr.com/photos/pirati/
+
+forum:
+  page: https://forum.pirati.cz/
+
+github:
+  url: https://github.com/pirati-web/petrdaubner.cz/
+  branch: master
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+paginate_path: "/aktuality/:num/"
+paginate: 11
+
+exclude:
+  - readme.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+permalink: /aktuality/:title.html
+collections:
+  people:
+    output: true
+    permalink: /lide/:path/
+
+  program:
+    output: true
+    permalink: /program/
+
+  # Sole purpose is to create candidate lists in separate files.
+  candidatelists:
+    output: false
+
+defaults:   # defaults values for collection scope
+  -
+    scope:
+      path: "_people"
+    values:
+      layout: "person"
+      rbar: "foto, personContact"
+  -
+    scope:
+      path: "_program"
+    values:
+      layout: "program-post"
+      rbar: "garant, program"
+
+emptyArray: []
+
+assets:
+  source_maps: true
+  compression: true
+  gzip: false
+  plugins:
+    css: { autoprefixer: {}}
+    img:
+      optim:
+        jpegoptim:
+          strip: all
+          max_quality: 80
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+      - "IE > 9"
+  sources:
+    - vendor/bundle/ruby/2.5.0/gems/jekyll-theme-pirati-7.2.0/_sass
+    - assets/css
+    - assets/fonts
+    - assets/video
+    - assets/img
+    - _sass
