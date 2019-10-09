@@ -28,7 +28,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate", "~> 1.1.0"
   gem "jekyll-sitemap", "~> 1.2.0"
   # gem "github-pages"
-  gem "jekyll-assets", "3.0.11"
+  gem "jekyll-assets", "3.0.11", group: :jekyll_plugins
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
