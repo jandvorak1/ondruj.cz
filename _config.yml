@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Pavel Ondruj - kandidát do Senátu
+title: Pavel Ondrůj - kandidát do Senátu
 email: Petr.daubner@pirati.cz
 description: "Člen Pirátů, kandiduje s podporou ČSSD, Zelených a SEN 21. Středoškolský učitel a cestovatel"
 keywords: Senát, Piráti, Politika, Liberální, Demokracie
@@ -28,8 +28,8 @@ sass:
   sass_dir: _sass
 
 organization:
-  name: Petr Daubner - kandidát do Senátu
-  shortName: Petr Daubner
+  name: Pavel Ondrůj - kandidát do Senátu
+  shortName: Pavel Ondrůj
   contactUid: petr.daubner
   email: petr.daubner@pirati.cz
   phone: +420 730 683 800
