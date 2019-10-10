@@ -37,7 +37,7 @@ end
 gem "json", "~> 2.1.0" # For gem building
 gem 'sprockets', "~> 3.7.2"
 gem 'uglifier', "~> 4.0.0"
-gem "mini_magick", "~> 4.8.0"
+gem "mini_magick", "~> 4.9.4"
 gem "autoprefixer-rails", "~> 8.6.4"
 gem "image_optim", "~> 0.26.1"
 gem "image_optim_bin", "~> 0.0.7"# Optional
