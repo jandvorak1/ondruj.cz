@@ -91,6 +91,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-ftp
 paginate_path: "/aktuality/:num/"
 paginate: 11
 
@@ -151,3 +152,8 @@ assets:
     - assets/video
     - assets/img
     - _sass
+
+# FTP settings
+username: ondruj.cz
+server_url: ftp.ondruj.cz
+remote_dir: /www/

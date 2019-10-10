@@ -29,6 +29,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap", "~> 1.2.0"
   # gem "github-pages"
   gem "jekyll-assets", "3.0.11"
+  gem "jekyll-ftp", "~> 0.2.0"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
