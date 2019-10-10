@@ -13,27 +13,27 @@ main:
   - link: /aktuality/
     name: Aktuality
     match: aktuality
-  - link: /lide/petr-daubner/
-    name: Můj příběh
-    match: petr-daubner
+  - link: /lide/pavel-ondruj/
+    name: O mně
+    match: pavel-ondruj
     # - link: /program/
     #name: Program
     #match: program
-  - link: https://www.flickr.com/photos/pirati/sets/72157690053163063
-    name: Fotogalerie
-  - link: /kontakt/
-    name: Kontakt
-    match: kontakt
+    #- link: https://www.flickr.com/photos/pirati/sets/72157690053163063
+    #  name: Fotogalerie
+  - #link: /kontakt/
+    #name: Kontakt
+    #match: kontakt
 
 
 bottom:
   - class: small-12 medium-4 medium-offset-2
     title: Makáme
     links:
-      - link: /lide/petr-daubner/
-        name: Můj příběh
-      - link: /program/
-        name: Program
+      - link: /lide/pavel-ondruj/
+        name: O mně
+      #- link: /program/
+      #  name: Program
       - link: /aktuality/
         name: Aktuality
   - class: small-12 medium-4 end

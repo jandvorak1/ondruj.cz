@@ -15,10 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 title: Pavel Ondrůj - kandidát do Senátu
 email: Petr.daubner@pirati.cz
-description: "Člen Pirátů, kandiduje s podporou ČSSD, Zelených a SEN 21. Středoškolský učitel a cestovatel"
+description: "Kandidát Pirátů do Senátu ve volebním obvodu č. 63 Přerov"
 keywords: Senát, Piráti, Politika, Liberální, Demokracie
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://petrdaubner.cz/" # the base hostname & protocol for your site
+url: "https://ondruj.cz/" # the base hostname & protocol for your site
 
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -30,9 +30,9 @@ sass:
 organization:
   name: Pavel Ondrůj - kandidát do Senátu
   shortName: Pavel Ondrůj
-  contactUid: petr.daubner
-  email: petr.daubner@pirati.cz
-  phone: +420 730 683 800
+  contactUid: pavel.ondruj
+  email: 
+  phone: +420 608 810 150
   address: |
     Na Moráni 3,
     120 00 Praha 2
@@ -53,27 +53,27 @@ homepageBanner:
 calendar:
   # Get api key from Google Developer Console
   apiKey:
-  title: Petr Daubner - Kalendář
+  title: Pavel Ondrůj - Kalendář
   id: cm9tYW4uc2VtaWtAZ21haWwuY29t@group.calendar.google.com
   page: https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=500&amp;wkst=2&amp;hl=cs&amp;bgcolor=%23FFFFFF&amp;src=roman.semik%40gmail.com&amp;&ctz=Europe%2FPrague&amp;color=%232952A3
 
 
 facebook:
   loadSDK: true
-  profilePage: https://www.facebook.com/PiratiPraha9 
+  profilePage: PavelOndrujDoSenatu 
 
 twitter:
   loadSDK: true
-  profile: stoural
+  profile: OndrujPavel
 
 instagram:
-  profilePage: https://www.instagram.com/pirati.cz/
+  profilePage: https://www.instagram.com/ondruj_pavel/
 
-gplus:
-  profilePage: https://plus.google.com/u/0/+piratskastrana
+# gplus:
+#   profilePage: https://plus.google.com/u/0/+piratskastrana
 
-flicker:
-  profilePage: https://www.flickr.com/photos/pirati/
+#flicker:
+#  profilePage: https://www.flickr.com/photos/pirati/
 
 forum:
   page: https://forum.pirati.cz/
