@@ -14,11 +14,11 @@ main:
     name: Aktuality
     match: aktuality
   - link: /lide/pavel-ondruj/
-    name: O mně
+    name: Můj příběh
     match: pavel-ondruj
-    # - link: /program/
-    #name: Program
-    #match: program
+  - link: /program/
+    name: Program
+    match: program
     #- link: https://www.flickr.com/photos/pirati/sets/72157690053163063
     #  name: Fotogalerie
   - #link: /kontakt/
@@ -31,9 +31,9 @@ bottom:
     title: Makáme
     links:
       - link: /lide/pavel-ondruj/
-        name: O mně
-      #- link: /program/
-      #  name: Program
+        name: Můj příběh
+      - link: /program/
+        name: Program
       - link: /aktuality/
         name: Aktuality
   - class: small-12 medium-4 end

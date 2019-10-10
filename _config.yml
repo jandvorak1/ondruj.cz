@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Pavel Ondrůj - kandidát do Senátu
-email: Petr.daubner@pirati.cz
+email: pavel@ondruj.cz
 description: "Kandidát Pirátů do Senátu ve volebním obvodu č. 63 Přerov"
 keywords: Senát, Piráti, Politika, Liberální, Demokracie
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -22,6 +22,9 @@ url: "https://ondruj.cz/" # the base hostname & protocol for your site
 
 twitter_username: jekyllrb
 github_username:  jekyll
+
+administrator:
+  email: honza.dvorak@pirati.cz # mail kam pujdou chybove vystupy
 
 sass:
   style: compressed
@@ -31,7 +34,7 @@ organization:
   name: Pavel Ondrůj - kandidát do Senátu
   shortName: Pavel Ondrůj
   contactUid: pavel.ondruj
-  email: 
+  email: pavel@ondruj.cz
   phone: +420 608 810 150
   address: |
     Na Moráni 3,
@@ -47,20 +50,20 @@ homepageBanner:
   title: Program
   breakpoint: 640 # breakpoint in pixels when to start showing `default` instead of `mobile`
   image:
-    default: header/roman-semik-large.jpg
-    mobile: header/roman-semik-small.jpg
+    default: header/pavel-ondruj.png
+    mobile: header/pavel-ondruj-mobile.png
 
-calendar:
+#calendar:
   # Get api key from Google Developer Console
-  apiKey:
-  title: Pavel Ondrůj - Kalendář
-  id: cm9tYW4uc2VtaWtAZ21haWwuY29t@group.calendar.google.com
-  page: https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=500&amp;wkst=2&amp;hl=cs&amp;bgcolor=%23FFFFFF&amp;src=roman.semik%40gmail.com&amp;&ctz=Europe%2FPrague&amp;color=%232952A3
+#  apiKey:
+#  title: Pavel Ondrůj - Kalendář
+#  id: cm9tYW4uc2VtaWtAZ21haWwuY29t@group.calendar.google.com
+#  page: https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=500&amp;wkst=2&amp;hl=cs&amp;bgcolor=%23FFFFFF&amp;src=roman.semik%40gmail.com&amp;&ctz=Europe%2FPrague&amp;color=%232952A3
 
 
 facebook:
   loadSDK: true
-  profilePage: PavelOndrujDoSenatu 
+  profilePage: https://www.facebook.com/PavelOndrujDoSenatu/ 
 
 twitter:
   loadSDK: true
@@ -79,7 +82,7 @@ forum:
   page: https://forum.pirati.cz/
 
 github:
-  url: https://github.com/pirati-web/petrdaubner.cz/
+  url: https://github.com/jandvorak1/ondruj.cz/
   branch: master
 
 # Build settings

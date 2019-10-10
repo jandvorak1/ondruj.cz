@@ -1,35 +1,35 @@
 ---
 layout: program-post
 title: Programové priority
-description: Mgr. Petr Daubner - volební program kandidáta do senátu
+description: Pavel Ondrůj - volební program kandidáta do senátu
 keywords: program, senát
 rbar: fb
 ---
 
-# Petr Daubner: Programové priority
+# Pavel Ondrůj
 
-## Proevropská zahraniční politika
+## Priorita 1
 
-- Jsme hrdí na členství České republiky v EU a v NATO
-- Chceme aktivně ovlivňovat dění v Evropské unii
-- Odmítáme snahy o vystoupení z Evropské unie
+- Bod 1
+- Bod 2
+- Bod 3
 
-## Vzdělání
+## Priorita 2
 
-- Chceme kvalitní školství, dostupné pro všechny
-- Zvýšíme výdaje na školství, vědu a výzkum
-- Učitel má především učit, ne papírovat
+- Bod 1
+- Bod 2
+- Bod 3
 
-## Veřejná správa
+## Priorita 3
 
-- Usnadníme přístup občanů k veřejné správě
-- Úřad musí být vůči občanovi otevřený a přívětivý
-- Stát musí zajistit ochranu lidských práv každého jednotlivce
+- Bod 1
+- Bod 2
+- Bod 3
 
-## Kvalita života
+## Priorita 4
 
-- Minimální mzdu je třeba i nadále průběžné zvyšovat
-- Chceme kvalitní sociální a zdravotní péči pro klidné stáří
-- Podpoříme zodpovědný přístup k životnímu prostředí
+- Bod 1
+- Bod 2
+- Bod 3
 
 
