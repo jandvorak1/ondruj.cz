@@ -43,7 +43,7 @@ gem "autoprefixer-rails", "~> 8.6.4"
 gem "image_optim", "~> 0.26.1"
 gem "image_optim_bin", "~> 0.0.7"# Optional
 gem "image_optim_pack", "~> 0.5.1"
-gem "nokogiri", "~> 1.10.4"
+gem "nokogiri", "~> 1.10.8"
 
 # Make sure watch mode works A-OK on Windows too
 # gem "wdm", "~> 0.1.1" if Gem.win_platform?
