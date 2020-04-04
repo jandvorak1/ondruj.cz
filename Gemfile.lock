@@ -98,7 +98,7 @@ GEM
     mini_racer (0.2.6)
       libv8 (>= 6.9.411)
     minitest (5.12.2)
-    nokogiri (1.10.4)
+    nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -141,7 +141,7 @@ DEPENDENCIES
   json (~> 2.1.0)
   mini_magick (~> 4.9.4)
   mini_racer (~> 0.2.6)
-  nokogiri (~> 1.10.4)
+  nokogiri (~> 1.10.8)
   sprockets (~> 3.7.2)
   uglifier (~> 4.0.0)
 
