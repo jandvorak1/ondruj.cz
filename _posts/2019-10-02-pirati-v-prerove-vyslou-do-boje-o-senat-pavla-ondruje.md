@@ -4,7 +4,7 @@ category: blog
 #tags: general
 layout: post
 title: Piráti v Přerově vyšlou do boje o Senát Pavla Ondrůje
-author: 
+author: Mediální odbor
 authorId: 
 image: posts/2019-10-02-pirati-v-prerove-vyslou-do-boje-o-senat-pavla-ondruje.jpg  #751x422 pixelu
 ---
