@@ -3,7 +3,7 @@ date: 2020-04-29
 category: blog
 #tags: general
 layout: post
-title: Jsem aktivní nejen v době pandemie, je pro mne přirození pomáhat a bylo to tak v čase povodní
+title: Jsem aktivní nejen v době pandemie, je pro mne přirozené pomáhat a bylo to tak v čase povodní
 author: Pavel Ondrůj
 authorId: 
 image: posts/2020-04-29-jsem-aktivni-nejen-v-dobe-pandemie-je-pro-mne-prirozene-pomahat-a-bylo-to-tak-v-case-povodni.jpg  #751x422 pixelu
